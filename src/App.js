@@ -27,8 +27,8 @@ const App = ()=> {
         progress={progress}
       />
         <Routes>
-                <Route exact path="/" element={<News   setProgress={setProgress}  apikey={apikey}  key="general" titlehead="SpeedoNews- Main Headlines" pageSize={6} country="us" category='general'/>}/>
-               <Route exact path="/general" element={<News  setProgress={setProgress}  apikey={apikey}  key="general" titlehead="SpeedoNews- Main Headlines" pageSize={6} country="us" category='general'/>}/>
+                <Route exact path="/" element={<News   setProgress={setProgress}  apikey={apikey}  key="general" titlehead="SpeedoNews- Main Headlines" pageSize={6} country="us" category='world'/>}/>
+               <Route exact path="/general" element={<News  setProgress={setProgress}  apikey={apikey}  key="world" titlehead="SpeedoNews- Main Headlines" pageSize={6} country="us" category='world'/>}/>
                <Route exact path="/business" element={<News  setProgress={setProgress} apikey={apikey} key="business" titlehead="SpeedoNews- Business Headlines" pageSize={6} country="us" category='business'/>}/>
                <Route exact path="/entertainment" element={<News setProgress={setProgress} apikey={apikey}  key="entertainment" titlehead="SpeedoNews- Entertainment Headlines" pageSize={6} country="us" category='entertainment'/>}/>
                <Route exact path="/health" element={<News setProgress={setProgress} apikey={apikey}  key="health" pageSize={6} titlehead="SpeedoNews- Health Headlines" country="us" category='health'/>}/>
