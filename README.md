@@ -8,7 +8,7 @@ You can clone the SpeedoNews app on GitHub by following these steps:
 repository.
 
 
-This project was Made By [Shahwaiz Muhammad Rafiq](https://github.com/facebook/create-react-app).
+This project was Made By [Shahwaiz Muhammad Rafiq](https://github.com/ShahwaizMuhammadRafiq).
 
 
 # Getting Started with Create Speedo React App
